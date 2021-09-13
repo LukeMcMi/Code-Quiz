@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.card-timer{
+    visibility: hidden;
+ 
+
+
+}

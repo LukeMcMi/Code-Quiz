@@ -10,18 +10,30 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body class="container">
+<!-- 
         <div class="row">
-            <h1 class="col">Code Quiz</h1>
+            <div class="game row">Code Quiz</h1>
+                <div class= "card-timer">
+                    <div>10</div>
+                    <h3>seconds remaining</h3>
+                </div>
+
             <p class="col">Quick coding quiz to test the gray matter.</p>
             <button>Start Quiz</button>
-        </div>
-        <div class= "card timer">
-            <div class = "timer-text">
-            <div class="large-font timer-count">10</div>
-            <h3>seconds remaining</h3>
-          </div>
+        </div> -->
 
+        <!-- High score and timer -->
+        <div class="container">
+            <div class="row">
+                <a referrerpolicy="#" id="viewHighScore">High Scores</a>
+            </div>
+            <div id="timer" class="col">
+                <i class="countdownClock"></i> Time: <span id="timeRemaing">0</span>
+            </div>
+            <div id="timesUp" class="col" style="display: none;">Times Up</div>
+        </div>
         
+
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
