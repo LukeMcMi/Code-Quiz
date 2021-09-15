@@ -18,10 +18,10 @@
             <!-- header with clock and link to champion list (high scores) -->
             <div class="row">
                 <div class="col text-left">
-                    <a href="#" id="highScore"> Champion List</a>
+                    <a href="#" id="highScore">Champion List</a>
                 </div>
                 <div id="timer" class="col text-right">
-                    <i class="far fa-clock"></i> Time: <span id="timeRemaining">0</span>
+                    <i class="far fa-clock"></i>Time: <span id="timeRemaining">0</span>
                 </div>
                 <div id="timesUp" class="col text-right" style="display: none;">Time's Up!</div>
             </div>
@@ -36,21 +36,23 @@
                             <p class="p-5">Time to test out the gray matter on some coding related trivia!</p>
                             <button type="button" id="start-quiz" class="btn btn-info ml-5 align-center">Test Me</button>
                         </div>
+
+                        <!-- question section -->
+                        <div id="questionSection" style="display: none;">
+                            <p id="questionTitle" class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"></p>
+                            <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
+                                <p><button id="btn0" class="btn btn-dark"></button></p>
+                                <p><button id="btn1" class="btn btn-dark"></button></p>
+                                <p><button id="btn2" class="btn btn-dark"></button></p>
+                                <p><button id="btn3" class="btn btn-dark"></button></p>
+                                <hr id="lineBreak" style="display: none;" class="mt-4">
+                                <p id="answerCheck" style="display: none;"></p>
+                            </div>
+                        </div>
                     </main>
             </div>
 
 
-            <!-- High score and timer -->
-            <div class="container">
-                <div class="row">
-                    <a referrerpolicy="#" id="viewHighScore">High Scores</a>
-                </div>
-                <div id="timer" class="col">
-                    <i class="countdownClock"></i> Time: <span id="timeRemaing">0</span>
-                </div>
-                <div id="timesUp" class="col" style="display: none;">Times Up</div>
-            </div>
-            
         </div>  
         <!-- linking javascript -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
