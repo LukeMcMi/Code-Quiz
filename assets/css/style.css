@@ -1,13 +1,18 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-align: center;
     background-color: aquamarine;
+    width: auto;
+    padding: auto;
 }
 
-.container {
+.container-fluid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 5px;
+    width: auto;
+    padding: auto;
 }
 
 .col {
@@ -18,8 +23,9 @@ body {
     flex-direction: row;
 }
 
-.card-timer{
-    visibility: hidden;
+#timer{
+    flex-direction: column;
+    justify-content: right;
  
 
 
